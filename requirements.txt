@@ -1,0 +1,11 @@
+# requirements.txt
+numpy
+pandas
+plotly
+matplotlib
+seaborn
+streamlit
+wordcloud
+scikit-learn
+category_encoders
+xgboost
