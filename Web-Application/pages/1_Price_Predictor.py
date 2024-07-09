@@ -13,9 +13,9 @@ def load_data_and_model() -> Tuple[pd.DataFrame, any]:
     - df (pd.DataFrame): The preprocessed data frame.
     - pipeline (any): The trained model pipeline.
     """
-    with open('df.pkl','rb') as file:
+    with open('Pickle-File/df.pkl','rb') as file:
         df = pickle.load(file)
-    with open('pipeline.pkl','rb') as file:
+    with open('Pickle-File/pipeline.pkl','rb') as file:
         pipeline = pickle.load(file)
     return df, pipeline
 

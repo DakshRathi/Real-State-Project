@@ -12,8 +12,8 @@ def load_data() -> tuple:
     Returns:
         tuple: A tuple containing two dataframes: new_df (properties-lat-long.csv) and df_wordcloud (wordcloud.csv).
     """
-    new_df = pd.read_csv("Dataset/Processed/properties-lat-long.csv")
-    df_wordcloud = pd.read_csv("Dataset/Processed/wordcloud.csv")
+    new_df = pd.read_csv("Pickle-File/properties-lat-long.csv")
+    df_wordcloud = pd.read_csv("Pickle-File/wordcloud.csv")
     return new_df, df_wordcloud
 
 # Function to display Geo map
