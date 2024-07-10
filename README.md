@@ -4,6 +4,8 @@
 This project aims to provide various functionalities related to real estate analytics and property recommendation using data analysis and machine learning techniques.
 Link to [Web-App](https://dakshrathi-real-state-project-web-app.streamlit.app/)
 
+I have also deployed this project on AWS EC2 instance. [Link](https://drive.google.com/file/d/1QR1LXaWliwN5j-5PM5mzSEMA92WJR_D5/view?usp=sharing) to demonstration
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Technologies Used](#technologies-used)
