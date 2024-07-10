@@ -38,37 +38,37 @@ The project is organized into several modules, each serving a specific purpose r
 
 ### Jupyter Notebooks
 
-1. **1-preprocessing.ipynb**
+**1-preprocessing.ipynb**
    - **Description**: Handles data preprocessing tasks including cleaning, normalization, and transformation.
 
-2. **2-feature-engineering.ipynb**
+**2-feature-engineering.ipynb**
    - **Description**: Implements feature engineering techniques such as creating new features and feature selection.
   
-3. **3a-eda-univariate-analysis.ipynb**
+**3a-eda-univariate-analysis.ipynb**
    - **Description**: Conducts univariate analysis on various features to understand their distributions.
 
-4. **3b-eda-multivariate-analysis.ipynb**
+**3b-eda-multivariate-analysis.ipynb**
    - **Description**: Performs multivariate analysis to explore relationships between different features.
 
-5. **4-outlier-treatment.ipynb**
+**4-outlier-treatment.ipynb**
    - **Description**: Implements outlier detection techniques and handles outlier treatment.
 
-6. **5-missing-value-imputation.ipynb**
+**5-missing-value-imputation.ipynb**
    - **Description**: Handles missing value imputation using appropriate strategies.
 
-7. **6-feature-selection.ipynb**
+**6-feature-selection.ipynb**
    - **Description**: Implements feature selection techniques to choose the most relevant features for modeling.
 
-8. **7a-baseline-model.ipynb**
+**7a-baseline-model.ipynb**
    - **Description**: Builds baseline machine learning models for initial performance evaluation.
 
-9. **7b-model-selection.ipynb**
+**7b-model-selection.ipynb**
    - **Description**: Selects the best machine learning model through comparative analysis and hyperparameter tuning.
 
-10. **8-data-visualization-analytics-module.ipynb**
+**8-data-visualization-analytics-module.ipynb**
     - **Description**: Latitude and Longitude coordinates for sectors in Gurgaon were scraped using the `geopy.geocoders` library. After scraping the coordinates, a wordcloud CSV file (wordcloud.csv) was created to visualize sector features. This file is used in the analytics module for generating and displaying word clouds based on selected sectors.
 
-11. **9-recommender-system.ipynb**
+**9-recommender-system.ipynb**
     - **Description**: Implements a recommender system for suggesting properties based on user preferences.
 
 ## Modules
